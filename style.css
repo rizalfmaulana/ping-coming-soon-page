@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+:root {
+  --Blue: hsl(223, 87%, 63%);
+  --PaleBlue: hsl(223, 100%, 88%);
+  --LightRed: hsl(354, 100%, 66%);
+  --Gray: hsl(0, 0%, 59%);
+  --VeryDarkBlue: hsl(209, 33%, 12%);
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  height: 100%;
+  text-align: center;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  color: var(--Gray);
+  margin-bottom: 0;
+}
+
+h1 span {
+  color: var(--VeryDarkBlue);
+  font-weight: 700;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.square {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+}
+
+form input {
+  border: 1px solid var(--PaleBlue);
+  outline: none;
+  border-radius: 20px;
+  padding: 12px;
+  width: 20%;
+  color: var(--PaleBlue);
+  margin-right: 10px;
+}
+
+::placeholder {
+  color: var(--PaleBlue);
+}
+
+form {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+form button {
+  border: none;
+  outline: none;
+  background-color: var(--Blue);
+  padding: 12px;
+  width: 10%;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 2px 5px 9px var(--PaleBlue);
+  cursor: pointer;
+}
+
+.fab {
+  font-size: 8px;
+  text-decoration: none;
+  color: var(--Blue);
+  margin: 5px;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 50%;
+  border: 1px solid var(--PaleBlue);
+}
+
+.foot {
+  font-size: 8px;
+  color: var(--PaleBlue);
+}
+
+.valid {
+  font-size: 8px;
+  color: var(--LightRed);
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  right: 87em;
+  display: none;
+}
