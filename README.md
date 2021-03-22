@@ -2,6 +2,9 @@
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
+## Live Site
+Click here to [Live Site](https://ping-coming-soon-page-neon.vercel.app/)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
